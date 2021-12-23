@@ -1,8 +1,9 @@
-from attention_text_classificaiton.positional_embedding import TokenAndPositionEmbedding
 from keras.layers import Bidirectional, GlobalMaxPool1D, LSTM
 from loguru import logger as log
 from tensorflow import keras
 from tensorflow.keras import layers
+
+from models.positional_embedding import TokenAndPositionEmbedding
 
 
 def create_model(max_len, vocab_size, embed_dim):

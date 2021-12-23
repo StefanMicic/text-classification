@@ -2,8 +2,8 @@ from loguru import logger as log
 from tensorflow import keras
 from tensorflow.keras import layers
 
-from positional_embedding import TokenAndPositionEmbedding
-from transformer_block import TransformerBlock
+from models.positional_embedding import TokenAndPositionEmbedding
+from models.transformer_block import TransformerBlock
 
 
 def create_model(max_len, vocab_size, embed_dim, num_heads, ff_dim):
