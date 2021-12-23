@@ -1,1 +1,1 @@
-# Serbian & English text classification
+# Text classification using RNN vs Transformer block
